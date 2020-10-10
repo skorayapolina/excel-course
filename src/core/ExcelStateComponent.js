@@ -1,6 +1,6 @@
-import {ExelComponent} from '@core/ExelComponent';
+import {ExcelComponent} from '@core/ExcelComponent';
 
-export class ExelStateComponent extends ExelComponent {
+export class ExcelStateComponent extends ExcelComponent {
   constructor(...args) {
     super(...args);
   }

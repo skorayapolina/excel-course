@@ -1,10 +1,10 @@
 import {createToolbar} from '@/components/toolbar/toolbar.template';
 import {$} from '@core/dom';
-import {ExelStateComponent} from '@core/ExelStateComponent';
+import {ExcelStateComponent} from '@core/ExcelStateComponent';
 import {defaultStyles} from '@/constants';
 
-export class Toolbar extends ExelStateComponent {
-  static className = 'exel__toolbar';
+export class Toolbar extends ExcelStateComponent {
+  static className = 'excel__toolbar';
 
   constructor($root, options) {
     super($root, {
