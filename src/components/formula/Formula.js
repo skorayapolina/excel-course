@@ -1,8 +1,8 @@
-import {ExelComponent} from '@core/ExelComponent';
+import {ExcelComponent} from '@core/ExcelComponent';
 import {$} from '@core/dom';
 
-export class Formula extends ExelComponent {
-  static className = 'exel__formula';
+export class Formula extends ExcelComponent {
+  static className = 'excel__formula';
 
   constructor($root, options) {
     super($root, {

@@ -1,4 +1,4 @@
-import {ExelComponent} from '@core/ExelComponent';
+import {ExcelComponent} from '@core/ExcelComponent';
 import {createTable} from '@/components/table/table.template';
 import {resizeHandler} from '@/components/table/table.resize';
 import {isCell, matrix, nextSelector, shouldResize} from '@/components/table/table.functions';
@@ -8,8 +8,8 @@ import * as actions from '@/redux/actions';
 import {defaultStyles} from '@/constants';
 import {parse} from '@core/parse';
 
-export class Table extends ExelComponent {
-  static className = 'exel__table';
+export class Table extends ExcelComponent {
+  static className = 'excel__table';
 
   constructor($root, options) {
     super($root, {
